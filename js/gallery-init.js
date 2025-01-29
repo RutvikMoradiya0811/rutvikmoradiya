@@ -1,8 +1,6 @@
 // ------------------------------------------------
-// Author: dimsemenov
-// Author URI: https://github.com/dimsemenov
+// Author: Rutvik Moradiya
 // File name: gallery-init.js
-// https://codepen.io/dimsemenov/pen/ZYbPJM
 // ------------------------------------------------
 
 var initPhotoSwipeFromDOM = function(gallerySelector) {

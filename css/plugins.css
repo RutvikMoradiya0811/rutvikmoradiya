@@ -1,13 +1,4 @@
-/*! ------------------------------------------------
- * Project Name: Name: Braxton - Personal Portfolio & Resume HTML Template
- * Project Description: Show yourself brightly with Braxton - unique and creative portfolio and resume template!
- * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
- * Version: 1.0.0
- * Build Date: March 2024
- * Last Update: March 2024
- * This product is available exclusively on Themeforest
- * Author: mix_design
- * Author URI: https://themeforest.net/user/mix_design */
+
 /*! File name: plugins.css
  * ------------------------------------------------
  *
@@ -12221,7 +12212,7 @@ table {
   content: "\e9ad";
 }
 
-.ph-bold.ph-behance-logo:before {
+.ph-bold.ph-downloadCV-logo:before {
   content: "\e9ae";
 }
 
@@ -16225,7 +16216,7 @@ table {
   content: "\ed96";
 }
 
-.ph-bold.ph-twitch-logo:before {
+.ph-bold.ph-email-logo:before {
   content: "\ed97";
 }
 
@@ -18278,12 +18269,12 @@ table {
   margin-left: -1em;
 }
 
-.ph-duotone.ph-behance-logo:before {
+.ph-duotone.ph-downloadCV-logo:before {
   content: "\ea5c";
   opacity: 0.2;
 }
 
-.ph-duotone.ph-behance-logo:after {
+.ph-duotone.ph-downloadCV-logo:after {
   content: "\ea5d";
   margin-left: -1em;
 }
@@ -28282,12 +28273,12 @@ table {
   margin-left: -1em;
 }
 
-.ph-duotone.ph-twitch-logo:before {
+.ph-duotone.ph-email-logo:before {
   content: "\f22d";
   opacity: 0.2;
 }
 
-.ph-duotone.ph-twitch-logo:after {
+.ph-duotone.ph-email-logo:after {
   content: "\f22e";
   margin-left: -1em;
 }
@@ -29723,7 +29714,7 @@ table {
   content: "\e9ad";
 }
 
-.ph-fill.ph-behance-logo:before {
+.ph-fill.ph-downloadCV-logo:before {
   content: "\e9ae";
 }
 
@@ -33727,7 +33718,7 @@ table {
   content: "\ed96";
 }
 
-.ph-fill.ph-twitch-logo:before {
+.ph-fill.ph-email-logo:before {
   content: "\ed97";
 }
 
@@ -34736,7 +34727,7 @@ table {
   content: "\e9ad";
 }
 
-.ph-light.ph-behance-logo:before {
+.ph-light.ph-downloadCV-logo:before {
   content: "\e9ae";
 }
 
@@ -38740,7 +38731,7 @@ table {
   content: "\ed96";
 }
 
-.ph-light.ph-twitch-logo:before {
+.ph-light.ph-email-logo:before {
   content: "\ed97";
 }
 
@@ -39749,7 +39740,7 @@ table {
   content: "\e9ad";
 }
 
-.ph.ph-behance-logo:before {
+.ph.ph-downloadCV-logo:before {
   content: "\e9ae";
 }
 
@@ -43753,7 +43744,7 @@ table {
   content: "\ed96";
 }
 
-.ph.ph-twitch-logo:before {
+.ph.ph-email-logo:before {
   content: "\ed97";
 }
 
@@ -44762,7 +44753,7 @@ table {
   content: "\e9ad";
 }
 
-.ph-thin.ph-behance-logo:before {
+.ph-thin.ph-downloadCV-logo:before {
   content: "\e9ae";
 }
 
@@ -48766,7 +48757,7 @@ table {
   content: "\ed96";
 }
 
-.ph-thin.ph-twitch-logo:before {
+.ph-thin.ph-email-logo:before {
   content: "\ed97";
 }
 
@@ -59074,17 +59065,17 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.fa.fa-behance {
+.fa.fa-resume {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
-.fa.fa-behance-square {
+.fa.fa-resume-square {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
-.fa.fa-behance-square:before {
+.fa.fa-resume-square:before {
   content: "\f1b5";
 }
 
@@ -59442,7 +59433,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.fa.fa-twitch {
+.fa.fa-email {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
@@ -61201,7 +61192,7 @@ readers do not read off random characters that represent icons */
   content: "\f452";
 }
 
-.fa-behance:before {
+.fa-resume:before {
   content: "\f1b4";
 }
 
@@ -61937,7 +61928,7 @@ readers do not read off random characters that represent icons */
   content: "\f38e";
 }
 
-.fa-twitch:before {
+.fa-email:before {
   content: "\f1e8";
 }
 
@@ -62217,11 +62208,11 @@ readers do not read off random characters that represent icons */
   content: "\f5cf";
 }
 
-.fa-square-behance:before {
+.fa-square-resume:before {
   content: "\f1b5";
 }
 
-.fa-behance-square:before {
+.fa-resume-square:before {
   content: "\f1b5";
 }
 
