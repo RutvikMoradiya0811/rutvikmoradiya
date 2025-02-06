@@ -3487,21 +3487,21 @@ form textarea:required:valid {
 
 .pswp__caption,
 .pswp__ui--fit .pswp__caption {
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: transparent;
 }
 
 .pswp__caption__center {
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
-  padding: 3rem;
+  padding: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .pswp__caption__center h5 {
-  font: normal 700 -moz-calc(var(--_size) * 1.5)/1.2 var(--_font-accent);
-  font: normal 700 calc(var(--_size) * 1.5)/1.2 var(--_font-accent);
+  font: normal 600 -moz-calc(var(--_size) * 1.5)/1.2 var(--_font-accent);
+  font: normal 600 calc(var(--_size) * 1.5)/1.2 var(--_font-accent);
   color: var(--t-per-bright-light);
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 .pswp__caption__center .rounded-tag {
   display: -webkit-inline-box;
@@ -3513,7 +3513,7 @@ form textarea:required:valid {
       -ms-flex-align: center;
           align-items: center;
   height: 3.4rem;
-  padding: 0 1.4rem;
+  padding: 0.5rem;
   margin: 0.5rem 1rem 0.5rem 0;
   -moz-border-radius: var(--_radius-s);
        border-radius: var(--_radius-s);
@@ -3524,14 +3524,14 @@ form textarea:required:valid {
   color: var(--t-per-bright-light);
 }
 .pswp__caption__center p {
-  font: normal 400 -moz-calc(var(--_size) * 1.125)/1.4 var(--_font-default);
-  font: normal 400 calc(var(--_size) * 1.125)/1.4 var(--_font-default);
+  font: normal 400 -moz-calc(var(--_size) * 1.125)/1 var(--_font-default);
+  font: normal 400 calc(var(--_size) * 1.125)/1 var(--_font-default);
   color: var(--t-per-medium-light);
   margin-top: 1rem;
 }
 @media only screen and (min-width: 1200px) {
   .pswp__caption__center {
-    max-width: 600px;
+    max-width: 950px;
   }
 }
 @media only screen and (min-width: 1600px) {
