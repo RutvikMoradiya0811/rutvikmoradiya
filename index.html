@@ -4,8 +4,14 @@
   <head>
     <meta charset="UTF-8">
 
+    <meta property="og:title" content="iOS Developer - Rutvik Moradiya" />
+    <meta property="og:description" content="I am passionate about app development and thrive on bringing innovative ideas to life. My experience spans across iPhone and iPad development, utilizing Swift and Objective-C, and I am committed to delivering high-quality products that meet and exceed client expectations." />
+    <meta property="og:image" content=./img/others/linkshow.png />
+    <!-- <meta property="og:url" content="https://yourwebsite.com" /> -->
     <!-- Page Title -->
+    <link rel="icon" href="./img/avatars/iOS_Rutvik.png" type="image/icon type">
     <title>iOS Developer - Rutvik Moradiya</title>
+
 
 
     <!-- Viewport Meta-->
@@ -83,7 +89,7 @@
       <!-- Header Controls Start -->
       <div class="header__controls d-flex justify-content-end">
         <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
-        <a id="notify-trigger" class="header__trigger btn" href="mailto:rutvikmoradiya0811@gmail.com?subject=Message%20from%20your%20site">
+        <a id="notify-trigger" class="header__trigger btn" target="_blank" href="https://forms.gle/JX2x7QjuTJ9NAFmh9">
           <span class="trigger__caption">Let's Talk</span>
           <i class="ph-bold ph-chat-dots"></i>
         </a>
@@ -146,7 +152,7 @@
                 <a class="socials-square__link btn" href="https://www.instagram.com/iamrutvikmoradiya/" target="_blank"><i class="ph-bold ph-instagram-logo"></i></a>
               </li>
               <li class="socials-square__item">
-                <a class="socials-square__link btn" href="mailto:rutvikmoradiya0811@gmail.com" target="_blank"><i class="ph-bold ph-email-logo"></i></a>
+                <a class="socials-square__link btn" href="https://forms.gle/JX2x7QjuTJ9NAFmh9" target="_blank"><i class="ph-bold ph-email-logo"></i></a>
               </li>
               <li class="socials-square__item">
                 <a class="socials-square__link btn" href="https://www.pinterest.com/" target="_blank"><i class="ph-bold ph-pinterest-logo"></i></a>
@@ -259,7 +265,8 @@
                         <span class="rounded-tag">Paperless Valet System</span>
                         <span class="rounded-tag">QR Code Integration</span>
                         <span class="rounded-tag">Real-Time Updates</span>
-                        <span class="rounded-tag">Vehicle Request Feature</span>
+                        <span class="rounded-tag">Vehicle Request Feature</span>\
+                        <span class="rounded-tag">Stripe</span>
                       </div>
                       <p class="small">
                         Parq is a paperless valet system which makes your valet experience fast and convenient, eliminating the need for saving tickets and crowded waiting areas.
@@ -323,6 +330,7 @@
                       <span class="rounded-tag opposite">Google Maps</span>
                       <span class="rounded-tag opposite">Live Updates</span>
                       <span class="rounded-tag opposite">Notification Services</span>
+                      <span class="rounded-tag opposite">Socket.IO</span>
                     </div>
                     <p class="small">
                       JSU Ride app is a transportation service provided by Jacksonville State University(JSU) to facilitate convenient on-campus and local travel for its students, faculty, and staff. Working similarly to ride-sharing platforms, the service offers free rides within the campus and to designated off-campus locations
@@ -343,28 +351,24 @@
                   </a>
                   <figcaption class="gallery__descr " itemprop="caption description">
                     <h5>
-                      Contactless Dining
+                      <a class="text-link-bold" href="http://bit.ly/iOSRutvik" target="_blank"> 
+                        The complete collection of my projects.
+                      </a>
+                      <small class="top">You can view my work by click on above link.</small>
                     </h5>
                     <div class="card__tags d-flex flex-wrap">
-                      <span class="rounded-tag opposite">Socket.IO</span>
                       <span class="rounded-tag opposite">Multiple Language Supports</span>
                       <span class="rounded-tag opposite">PayPal</span>
-                      <span class="rounded-tag opposite">Stripe</span>
+                      <span class="rounded-tag opposite">Ads Integration</span>
+                      <span class="rounded-tag opposite">Deployment Services</span>
                     </div>
                     <p class="small">
-                      By using this app, customers can simply scan a QR code, peruse the menu at their leisure, place orders, and relax while their food is prepared. It’s more than just convenient;
-                      <br>
-                      • Contactless Dining: The system is designed to offer a hygienic dining experience by eliminating the need for traditional paper menus and face-to-face ordering.
-                      </br>
-                      • QR Code Ordering: Customers scan a unique QR code at their table to access the digital menu and place orders without any physical contact.
-                      <br>
-                      • Real-Time Order Management: Ensures that orders are instantly communicated to the restaurant’s kitchen and staff, improving service speed and accuracy.
-                    </br>         
+                      From concept to completion, this portfolio captures my process, challenges overcome, and successes achieved.
                     </p>
                   </figcaption>
                 </figure>
                 <!-- Works Gallery Single Item End -->
-    
+  
               </div>
             </div>
           </div>
@@ -990,7 +994,7 @@
               <!-- Reply Messages End -->
 
               <!-- Contact Form Start -->
-              <form class="form contact-form" id="contact-form">
+              <form class="form contact-form" id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSf_18PBzLbv7gKFGm4N3Ptw-jPdrPfMW0Vd-jC6_-tmJNPhNQ/formResponse" method="POST">
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Starter Template">
                 <input type="hidden" name="admin_email" value="support@mixdesign.club">
@@ -999,21 +1003,23 @@
                 <div class="container-fluid p-0">
                   <div class="row gx-0">
                     <div class="col-12 col-md-6 form__item animate-in-up">
-                      <input type="text" name="Name" placeholder="Your Name*" required>
+                      <input name="entry.1798661561" type="Name" id="name" placeholder="Your Name*" required />
                     </div>
                     <div class="col-12 col-md-6 form__item animate-in-up">
-                      <input type="text" name="Company" placeholder="Company Name">
+                      <input name="entry.339517605" name="Company" id="Company"  placeholder="Company Name" required />
                     </div>
                     <div class="col-12 col-md-6 form__item animate-in-up">
-                      <input type="email" name="E-mail" placeholder="Email Adress*" required>
+                      <input name="entry.1564042749" name="E-mail" id="E-mail"  placeholder="Email" required />
                     </div>
                     <div class="col-12 col-md-6 form__item animate-in-up">
-                      <input type="tel" name="Phone" placeholder="Phone Number*" required>
+                      <input name="entry.1712816567" type="number" id="ph-number"  placeholder="Phone Number" required />
                     </div>
                     <div class="col-12 form__item animate-in-up">
-                      <textarea name="Message" placeholder="A Few Words*" required></textarea>
+                      <textarea id="message" name="entry.2037166998" placeholder="A Few Words*" required></textarea>
                     </div>
                     <div class="col-12 form__item animate-in-up">
+
+                      <!-- Custom Submit Button -->
                       <button class="btn btn-default btn-hover btn-hover-accent" type="submit">
                         <span class="btn-caption">Send Message</span>
                         <i class="ph-bold ph-paper-plane-tilt"></i>
@@ -1028,6 +1034,7 @@
           </div>
           <!-- Content Block - Contact Form End -->
 
+ 
           <!-- Content Block - Socials Cards Start -->
           <div class="content__block grid-block">
             <div class="socials-cards d-flex justify-content-start flex-wrap">
@@ -1056,7 +1063,7 @@
               <div class="socials-cards__item d-flex grid-item-s animate-card-5">
                 <div class="socials-cards__card">
                   <i class="ph-bold ph-email-logo"></i>
-                  <a class="socials-cards__link" href="mailto:rutvikmoradiya0811@gmail.com" target="_blank"></a>
+                  <a class="socials-cards__link" href="https://forms.gle/JX2x7QjuTJ9NAFmh9" target="_blank"></a>
                 </div>
               </div>
               <!-- socials item -->
@@ -1075,7 +1082,7 @@
             <div class="teaser">
               <p class="teaser__text animate-in-up">Want to know more about me, tell me 
                 about your project or just to say hello? 
-                <a class="text-link-bold" href="mailto:rutvikmoradiya0811@gmail.com?subject=Message%20from%20your%20site">Drop me a line</a> 
+                <a class="text-link-bold" target="_blank" href="https://forms.gle/JX2x7QjuTJ9NAFmh9">Drop me a line</a> 
                 and I'll get back 
                 as soon as possible.
               </p>

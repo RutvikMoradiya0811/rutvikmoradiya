@@ -414,6 +414,35 @@ themeBtn.addEventListener('click', () => {
 window.addEventListener('DOMContentLoaded', () => {
   loadTheme(getCurrentTheme());
 });
+
+
+//custom form
+
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSf_18PBzLbv7gKFGm4N3Ptw-jPdrPfMW0Vd-jC6_-tmJNPhNQ/formResponse';
+  const formData = new URLSearchParams();
+
+  // Append data to Google Form fields
+  formData.append('entry.1798661561', document.getElementById('name').value); // Name
+  formData.append('entry.339517605', document.getElementById('Company').value);     // Company
+  formData.append('entry.1564042749', document.getElementById('E-mail').value);   // Email
+  formData.append('entry.1712816567', document.getElementById('ph-number').value);   // Phone
+  formData.append('entry.2037166998', document.getElementById('message').value);   // Message
+
+  // Submit the data
+  fetch(formURL, {
+    method: 'POST',
+    body: formData,
+    mode: 'no-cors' // Required for Google Forms
+  }).then(() => {
+    alert('Thank you! Your response has been submitted.');
+  }).catch((error) => {
+    console.error('Error:', error);
+  });
+});
+
 // --------------------------------------------- //
 // Color Switch End
 // --------------------------------------------- //
