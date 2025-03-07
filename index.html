@@ -8,11 +8,24 @@
     <title>iOS Developer - Rutvik Moradiya</title>
 
 
-<!-- Open Graph Tags (for social media previews) -->
-<meta property="og:title" content="iOS Development">
-<meta property="og:image" content="https://rutvikmoradiya0811.github.io/rutvikmoradiya/">
-<meta property="og:description" content="I am passionate about app development and thrive on bringing innovative ideas to life. My experience spans across iPhone and iPad development, utilizing Swift and Objective-C, and I am committed to delivering high-quality products that meet and exceed client expectations.">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 
+
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Rutvik Moradiya - iOS Developer" />
+     <meta property="og:description" content="Check out my portfolio showcasing my best projects and skills." />
+     <!-- <meta property="og:image" content="https://yourwebsite.com/image.jpg" /> -->
+     <meta property="og:image" content="https://rutvikmoradiya0811.github.io/images/preview.jpg" />
+
+     <!-- <meta property="og:url" content="https://yourwebsite.com" /> -->
+     <meta property="og:type" content="website" />
+ 
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image" />
+     <meta name="twitter:title" content="Rutvik Moradiya - iOS Developer" />
+     <meta name="twitter:description" content="Check out my portfolio showcasing my best projects and skills." />
+     <meta name="twitter:image" content="https://yourwebsite.com/image.jpg" />
 
     <!-- Viewport Meta-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,8 +101,9 @@
 
       <!-- Header Controls Start -->
       <div class="header__controls d-flex justify-content-end">
+
         <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
-        <a id="notify-trigger" class="header__trigger btn" target="_blank" href="https://forms.gle/JX2x7QjuTJ9NAFmh9">
+        <a id="notify-trigger" class="header__trigger btn" target="_blank"  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rutvikmoradiya0811/30min'}); return false;">
           <span class="trigger__caption">Let's Talk</span>
           <i class="ph-bold ph-chat-dots"></i>
         </a>
