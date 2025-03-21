@@ -2367,13 +2367,12 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1400px) {
   .rotating-btn {
-    bottom: 1rem;
+    bottom: 2rem;
     right: 8rem;
   }
 }
 @media only screen and (min-width: 1600px) {
   .rotating-btn {
-    bottom: 2;
     right: 10rem;
   }
 }
