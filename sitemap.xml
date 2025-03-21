@@ -6,7 +6,7 @@
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
-   <url>
+   <!-- <url>
       <loc>https://rutvikmoradiya0811.github.io/rutvikmoradiya/projects.html</loc>
       <lastmod>2025-03-21</lastmod>
       <changefreq>monthly</changefreq>
@@ -17,5 +17,5 @@
       <lastmod>2025-03-21</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-   </url>
+   </url> -->
 </urlset>
